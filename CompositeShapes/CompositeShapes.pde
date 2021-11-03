@@ -7,14 +7,14 @@ float circleX, circleY, circleDiameter;
 size(700, 500);
 //
 //Population
-//rectX = ;
-//rectY = ;
-//rectWidth = ;
-//rectHeight = ;
+rectX = width*1/2 - height*1/2;
+rectY = height * 0;
+rectWidth = height;
+rectHeight = height;
 circleX = width*1/2;
 circleY = height*1/2;
-circleDiameter = width;
+circleDiameter = height; //smallest dimension
 //
 //Canvas
-//rect(rectX, rectY, rectWidth, rectHeight);
+rect(rectX, rectY, rectWidth, rectHeight);
 ellipse(circleX, circleY, circleDiameter, circleDiameter);
